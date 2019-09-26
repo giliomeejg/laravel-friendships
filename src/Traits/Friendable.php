@@ -1,23 +1,23 @@
 <?php
 
-namespace Hootlex\Friendships\Traits;
+namespace giliomeejg\Friendships\Traits;
 
-use Hootlex\Friendships\Models\Friendship;
-use Hootlex\Friendships\Models\FriendFriendshipGroups;
-use Hootlex\Friendships\Status;
+use giliomeejg\Friendships\Models\Friendship;
+use giliomeejg\Friendships\Models\FriendFriendshipGroups;
+use giliomeejg\Friendships\Status;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Event;
 
 /**
  * Class Friendable
- * @package Hootlex\Friendships\Traits
+ * @package giliomeejg\Friendships\Traits
  */
 trait Friendable
 {
     /**
      * @param Model $recipient
      *
-     * @return \Hootlex\Friendships\Models\Friendship|false
+     * @return \giliomeejg\Friendships\Models\Friendship|false
      */
     public function befriend(Model $recipient)
     {
@@ -172,7 +172,7 @@ trait Friendable
     /**
      * @param Model $recipient
      *
-     * @return \Hootlex\Friendships\Models\Friendship
+     * @return \giliomeejg\Friendships\Models\Friendship
      */
     public function blockFriend(Model $recipient)
     {
@@ -210,7 +210,7 @@ trait Friendable
     /**
      * @param Model $recipient
      *
-     * @return \Hootlex\Friendships\Models\Friendship
+     * @return \giliomeejg\Friendships\Models\Friendship
      */
     public function getFriendship(Model $recipient)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hootlex\Friendships;
+namespace giliomeejg\Friendships;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -29,7 +29,6 @@ class FriendshipsServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/config/friendships.php' => config_path('friendships.php'),
         ], 'config');
-
     }
 
     /**
@@ -38,6 +37,5 @@ class FriendshipsServiceProvider extends ServiceProvider
      * @return void
      */
     public function register()
-    {
-    }
+    { }
 }

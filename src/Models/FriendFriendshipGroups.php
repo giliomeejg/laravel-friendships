@@ -1,13 +1,13 @@
 <?php
 
-namespace Hootlex\Friendships\Models;
+namespace giliomeejg\Friendships\Models;
 
-use Hootlex\Friendships\Status;
+use giliomeejg\Friendships\Status;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class FriendFriendshipGroups
- * @package Hootlex\Friendships\Models
+ * @package giliomeejg\Friendships\Models
  */
 class FriendFriendshipGroups extends Model
 {
@@ -31,5 +31,4 @@ class FriendFriendshipGroups extends Model
 
         parent::__construct($attributes);
     }
-
 }
