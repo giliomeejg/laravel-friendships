@@ -11,8 +11,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Hootlex",
-            "email": "hootlex@icloud.com"
+            "name": "giliomeejg",
+            "email": "gerrit@nudge.tech"
         }
     ],
     "autoload-dev": {
@@ -39,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Hootlex\\Friendships\\": "src/"
+            "giliomeejg\\Friendships\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Hootlex\\Friendships\\FriendshipsServiceProvider"
+                "giliomeejg\\Friendships\\FriendshipsServiceProvider"
             ]
         }
     },
